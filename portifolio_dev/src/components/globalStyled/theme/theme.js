@@ -11,11 +11,14 @@ export const theme = {
         fonts: {
             body: 'Arial, sans-serif',
             heading: 'Helvetica, sans-serif',
+            fontButton:"europa, sans-serif"
+
           },
+        
         fontSizes: {
             small: '0.875rem',
             medium: '1rem',
-            large: '1.25rem',
+            large: '3rem',
         }
     }
 }

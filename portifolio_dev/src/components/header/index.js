@@ -3,11 +3,26 @@ import logotipo from '../../assets/logotipo.png'
 import { BoxHeader, ButtonStyled } from "./styled";
 
 export function Header(params) {
-    return(
+    const buttons = [{
+        text: "home",
+    },
+    {
+        text: "projetos",
+    },
+    {
+        text: "sobre mim",
+    },
+    {
+        text: "contatos",
+    }
+    ]
+    return (
         <BoxHeader>
-            <img src={logotipo} alt="logotipo"/>
+            <img src={logotipo} alt="logotipo" />
             <div>
-                <ButtonStyled>???</ButtonStyled>
+                {buttons.map((button) => (
+                    <ButtonStyled>{button.text}</ButtonStyled>
+                ))}
             </div>
         </BoxHeader>
     )

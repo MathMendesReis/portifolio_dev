@@ -1,9 +1,10 @@
 import React from "react";
+import { Home } from "../../home";
 
 export function Homepage(){
     return(
         <div>
-            <h1>Minha homw</h1>
+            <Home/>
         </div>
     )
 }
