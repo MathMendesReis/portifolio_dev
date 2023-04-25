@@ -10,11 +10,12 @@ const typing = keyframes`
 `;
 
 export const BoxSection = styled.section`
-width:100vw;
+max-width:100vw;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
 h1{
     font-size: ${props => props.theme.text.fontSizes.large};
     font-weight: 800;
@@ -25,6 +26,18 @@ h1{
     white-space: nowrap;
     /* animation: ${typing} 4s steps(40, end) both; */
     text-align: center;
+    margin-bottom: 50px;
 }
+p{
+    font-size: ${props => props.theme.text.fontSizes.mediumParagraph};
+    width:40vw;
+    text-align: center;
+    margin-bottom: 150px;
+}
+`
 
+export const ImgComputer = styled.img`
+height: auto;
+width:50%;
+z-index: 1;
 `

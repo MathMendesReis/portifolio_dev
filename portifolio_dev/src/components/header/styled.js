@@ -3,7 +3,7 @@ import styled,{ keyframes } from "styled-components";
 
 
 export const BoxHeader = styled.header`
-width:100vw;
+max-width:100vw;
 height: auto;
 padding: 1%;
 display: flex;
@@ -12,8 +12,7 @@ align-items: center;
 padding-left: 75px;
 padding-right: 60px;
 background-color: ${props => props.theme.colors.background};
-/* position: fixed;
-top: 0%; */
+
 img{
     height: 150px;
     width:auto;
@@ -36,6 +35,7 @@ export const ButtonStyled = styled.button`
     background-color: ${props => props.theme.colors.background};
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     font-family: ${props=> props.theme.text.fonts.fontButton};
+    
     &:hover {
      background-color: ${props => props.theme.colors.backgroundSecundary};
      color: ${props => props.theme.text.textWhite};

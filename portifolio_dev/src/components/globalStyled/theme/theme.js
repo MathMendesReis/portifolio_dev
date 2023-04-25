@@ -19,6 +19,7 @@ export const theme = {
             small: '0.875rem',
             medium: '1rem',
             large: '3rem',
+            mediumParagraph: '1.6rem',
         }
     }
 }
