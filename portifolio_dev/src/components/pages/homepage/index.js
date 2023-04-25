@@ -1,9 +1,14 @@
 import React from "react";
+import { Home } from "../../home";
+import { About_me } from "../../about_me";
+import { Skils } from "../../skils";
 
 export function Homepage(){
     return(
         <div>
-            <h1>Minha homw</h1>
+            <Home/>
+            <About_me/>
+            <Skils/>
         </div>
     )
 }
