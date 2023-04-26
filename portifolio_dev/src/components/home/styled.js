@@ -38,6 +38,6 @@ p{
 
 export const ImgComputer = styled.img`
 height: auto;
-width:50%;
+width:40%;
 z-index: 1;
 `
