@@ -10,6 +10,8 @@ border-right: ${props=>props.border};
 padding: 15px;
 align-items: center;
 justify-content: space-around;
+background-color:#F8F8FF;
+  
 
 
 h1{

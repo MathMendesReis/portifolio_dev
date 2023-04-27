@@ -10,7 +10,7 @@ export function Home(params) {
             <p>Sou apaixonado por criar sites e aplicativos e me sinto muito realizado com o que faço!
 
 </p>
-            <ImgComputer src={computers} alt="" />
+            {/* <ImgComputer src={computers} alt="" /> */}
 
         </BoxSection>
     )

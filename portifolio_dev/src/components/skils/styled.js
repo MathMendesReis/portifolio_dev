@@ -10,7 +10,6 @@ justify-content: center;
 `
 
 export const ContainerCards = styled.div`
-    background-color: white;
     height:100vh;
     width: 75vw;
     position: relative;
@@ -21,4 +20,6 @@ export const ContainerCards = styled.div`
     justify-content: center;
     margin-top: 25px;
     align-items: center;
+    background-color:#F8F8FF;
+    
 `

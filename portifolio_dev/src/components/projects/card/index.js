@@ -14,7 +14,7 @@ export function CardProjects({ name,description,link_repositorio,link_projeto })
     return (
         <ContainerCard 
         onClick={()=>{showDetails()}} 
-        // onMouseOut={()=>{notShowDetails()}}
+        onMouseLeave={()=>{notShowDetails()}}
         >
             {detailsProjects === false ? 
             <ContainerFront>
@@ -24,8 +24,8 @@ export function CardProjects({ name,description,link_repositorio,link_projeto })
             <ContainerBack>
                 <h1>{name}</h1>
                 <p>{description}</p>
-                <p>{link_repositorio}</p>
-                <p>{link_projeto}</p>
+                <p>  <a href={link_projeto} target="blanck">Link de demonstração do projeto</a></p>
+                <p>  <a href={link_repositorio} target="blanck">Link do repositorio</a></p>
             </ContainerBack>}
         </ContainerCard>
     )
