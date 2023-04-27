@@ -5,11 +5,14 @@ display: flex;
 flex-direction: column;
 height: 100%;
 width: 100%;
-/* border: 2px solid blue; */
-border-left: 1px solid #E6ECF8;
+border-left: ${props=>props.border};
+border-right: ${props=>props.border};
 padding: 15px;
 align-items: center;
 justify-content: space-around;
+background-color:#F8F8FF;
+  
+
 
 h1{
     font-size: calc( 16px + (24 - 16) * (50vw - 400px) / (800 - 400) );
@@ -26,10 +29,21 @@ p{
 }
 ul{
     height: 25vh;
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    line-height: 30px;
+    ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
 
 }
 img{
-    height: 5vh;
+    height: auto;
+    width: 18%;
+    border-radius: 50%;
 
 }
 `

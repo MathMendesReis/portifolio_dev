@@ -10,6 +10,7 @@ const typing = keyframes`
 `;
 
 export const BoxSection = styled.section`
+height: 100vh;
 max-width:100vw;
 display: flex;
 flex-direction: column;
@@ -38,6 +39,6 @@ p{
 
 export const ImgComputer = styled.img`
 height: auto;
-width:50%;
+width:40%;
 z-index: 1;
 `

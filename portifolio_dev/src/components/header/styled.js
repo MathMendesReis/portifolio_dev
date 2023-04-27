@@ -3,8 +3,8 @@ import styled,{ keyframes } from "styled-components";
 
 
 export const BoxHeader = styled.header`
-max-width:100vw;
-height: auto;
+width:100vw;
+height: 70px;
 padding: 1%;
 display: flex;
 justify-content: space-between;
@@ -12,7 +12,9 @@ align-items: center;
 padding-left: 75px;
 padding-right: 60px;
 background-color: ${props => props.theme.colors.background};
-
+position: fixed;
+top: 0;
+z-index: 10;
 img{
     height: 150px;
     width:auto;

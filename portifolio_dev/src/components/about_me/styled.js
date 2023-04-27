@@ -20,6 +20,5 @@ h1{
     font-size: 2rem;
     margin-bottom: 40px;
     font-weight: 1000;
-
 }
 `
