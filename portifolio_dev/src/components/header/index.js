@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import logotipo from '../../assets/logotipo.png'
-import { BoxHeader, ButtonStyled } from "./styled";
+import { BoxHeader, ButtonHamburgue, ButtonStyled } from "./styled";
 
 export function Header() {
     const handleClick = (posicao) => {
@@ -10,15 +10,25 @@ export function Header() {
         });
       };
 
-    
+const [displayButton , setDisplayButton] = useState(true)
     return (
         <BoxHeader>
             <img src={logotipo} alt="logotipo" />
             <div>
-                <ButtonStyled onClick={()=>handleClick(0)}>home</ButtonStyled>
+                {displayButton === true?
+                    <ButtonHamburgue>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </ButtonHamburgue>
+                    :
+                    <ButtonHamburgue >
+                        X
+                    </ButtonHamburgue>
+                }
+                <ButtonStyled onClick={()=>handleClick(0)} >home</ButtonStyled>
                 <ButtonStyled onClick={()=>handleClick(600)}>sobre mim</ButtonStyled>
                 <ButtonStyled onClick={()=>handleClick(1900)}>projetos</ButtonStyled>
-                {/* <ButtonStyled onClick={()=>handleClick(3000)}>contatos</ButtonStyled> */}
             </div>
         </BoxHeader>
     )

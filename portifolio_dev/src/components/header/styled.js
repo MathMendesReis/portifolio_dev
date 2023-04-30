@@ -23,6 +23,22 @@ div{
     display:flex;
     gap: 10px;
 }
+@media screen and (max-width: 765px) {
+    padding: 0;
+    align-items: center;
+    div{
+    display:flex;
+    height: auto;
+    flex-direction: column;
+    background-color: aqua;
+}
+img{
+    align-self: center;
+}
+div{
+    display: none;
+}
+  }
 `
 
 export const ButtonStyled = styled.button`
@@ -41,5 +57,23 @@ export const ButtonStyled = styled.button`
     &:hover {
      background-color: ${props => props.theme.colors.backgroundSecundary};
      color: ${props => props.theme.text.textWhite};
+  }
+`
+
+export const ButtonHamburgue = styled.button`
+    display: none;
+
+    @media screen and (max-width: 765px) {
+    /* display: block;
+    height: 70px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    color:transparent;
+    span{
+        height: 5px;
+        width: 50px;
+        background-color: black;
+    } */
   }
 `

@@ -39,6 +39,11 @@ export const FooterBox = styled.footer`
         cursor: pointer;
         text-transform:capitalize;
     }
+
+    @media screen and (max-width: 904px) {
+    position: absolute;
+    top: 5500px;
+  }
 `
 
 export const BoxTitle = styled.div`

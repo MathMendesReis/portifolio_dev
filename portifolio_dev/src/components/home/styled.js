@@ -18,7 +18,7 @@ align-items: center;
 justify-content: center;
 
 h1{
-    font-size: ${props => props.theme.text.fontSizes.large};
+    font-size: calc( 16px + (24 - 16) * (110vw - 400px) / (800 - 400) );
     font-weight: 800;
     font-family: ${props => props.theme.text.fonts.heading};
     color: ${props => props.theme.text.titleColor};
