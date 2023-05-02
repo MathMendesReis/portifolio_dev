@@ -1,9 +1,11 @@
 import React from 'react'
 import { CardStyled } from './styled'
 
-export function Card({name_skil,description,staks,img,border}) {
+export function Card({name_skil,description,staks,img,border,borderRadius}) {
     return (
-        <CardStyled border = {border}>
+        <CardStyled 
+            borderRadius={borderRadius}
+            border = {border}>
             <img src={img}/>
             <h1>{name_skil}</h1>
             <p>{description}</p>

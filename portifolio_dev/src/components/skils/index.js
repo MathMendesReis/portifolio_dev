@@ -61,7 +61,8 @@ export function Skils(params) {
                 {skils.map((skil, index) => (
                     <Card
                         key={index}
-                        border={index === 1?"1px solid #E6ECF8":""}
+                        border={index === 1?"1px solid #E6ECF8":"none"}
+                        borderRadius={index === 1?"0":"25"}
                         name_skil={skil.name_skil}
                         description={skil.description}
                         staks={skil.staks}

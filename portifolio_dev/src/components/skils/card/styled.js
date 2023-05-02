@@ -7,10 +7,12 @@ height: 100%;
 width: 100%;
 border-left: ${props=>props.border};
 border-right: ${props=>props.border};
+border-radius: ${props=>props.borderRadius}px;
 padding: 15px;
 align-items: center;
 justify-content: space-around;
 background-color:#F8F8FF;
+
   
 
 

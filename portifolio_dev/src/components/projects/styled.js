@@ -29,6 +29,10 @@ export const ContainerProjects = styled.div`
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    @media screen and (max-width: 535px) {
+    height:auto;
+    width: 90%;
+}   
     h1{
     margin-bottom: 100px;
     color: ${props => props.theme.text.textWhite};
@@ -41,5 +45,6 @@ export const TitleCard = styled.h1`
     margin-bottom: 100px;
     color: ${props => props.theme.text.textWhite};
     font-weight: 1000;
-    font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
+    font-size: calc( 16px + (24 - 16) * (70vw - 400px) / (800 - 400) );
+    
 `
