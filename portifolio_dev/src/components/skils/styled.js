@@ -14,12 +14,12 @@ export const ContainerCards = styled.div`
     width: 75vw;
     position: relative;
     top:-110px;
-    border-radius: 25px;
     border: 1px solid #E6ECF8;
     display: flex;
     justify-content: center;
     margin-top: 25px;
     align-items: center;
     background-color:#F8F8FF;
+    border-radius:25px;
     
 `

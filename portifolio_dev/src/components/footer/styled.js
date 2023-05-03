@@ -2,13 +2,17 @@ import styled from 'styled-components'
 
 export const FooterBox = styled.footer`
     height: 350px;
-    margin-top: 550px;
+    /* margin-top: 550px; */
     background-color: ${props => props.theme.colors.backgroundSecundary};
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 60vh;
+    @media screen and (max-width: 963px) {
+        margin-top: 0.5vh;
+}
     
     div{
         display: flex;

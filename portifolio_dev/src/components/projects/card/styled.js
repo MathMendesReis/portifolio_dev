@@ -1,13 +1,21 @@
 import styled from "styled-components";
 
 export const ContainerCard = styled.div`
-height: 400px;
-width: 400px;
+height: 350px;
+width: 350px;
 cursor: pointer;
 transition: transform 0.3s ease-in-out;
 border: 1px solid #E6ECF8;
 border-radius: 25px;
 opacity: 1;
+@media screen and (max-width: 535px) {
+    height: 350px;
+    width: 350px;
+}
+h1{
+    font-size: calc( 16px + (24 - 16) * (70vw - 400px) / (800 - 400) );
+
+}
 
 &:hover{
     transform: scale(calc(100 / 95));
@@ -30,7 +38,7 @@ background: ${props => props.theme.text.titleColor};
 border-radius: 5%;
 
 h1{
-    font-size: 2rem;
+    font-size: calc( 16px + (24 - 16) * (60vw - 400px) / (800 - 400) );
     margin-bottom: 40px;
     font-weight: 1000;
     color: white;
@@ -76,5 +84,7 @@ button{
     background-color: transparent;
     
 }
+
+
 
 `
