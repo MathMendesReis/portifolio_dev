@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/static/js/main.977d9403.js",
+    "static/media/myFace.png": "/static/media/myFace.9894203933d986b82ce7.png",
+    "static/media/computers.jpeg": "/static/media/computers.12da5bbfc9c15731f902.jpeg",
+    "static/media/code.jpeg": "/static/media/code.1505151273700003bae1.jpeg",
+    "static/media/simbolNode.jpeg": "/static/media/simbolNode.429b3375567447de7c9b.jpeg",
+    "static/media/simbolReact.jpeg": "/static/media/simbolReact.e42520210c1d4258b8cc.jpeg",
+    "static/media/Palavrasecretas.png": "/static/media/Palavrasecretas.ef506ded1dc9120e3cc7.png",
+    "static/media/simbolAndroid.jpeg": "/static/media/simbolAndroid.5e9e3c5c701f03215e50.jpeg",
+    "static/media/logotipo.png": "/static/media/logotipo.5d350f026ceffd4a45c5.png",
+    "static/media/logoLabecommerce.png": "/static/media/logoLabecommerce.2a759a70fdb2ca66166d.png",
+    "static/media/logotipoWhite.png": "/static/media/logotipoWhite.760c5e2e082df92b047b.png",
+    "index.html": "/index.html",
+    "main.977d9403.js.map": "/static/js/main.977d9403.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.977d9403.js"
+  ]
+}
