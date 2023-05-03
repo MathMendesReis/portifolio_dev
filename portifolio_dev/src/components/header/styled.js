@@ -63,17 +63,5 @@ export const ButtonStyled = styled.button`
 export const ButtonHamburgue = styled.button`
     display: none;
 
-    @media screen and (max-width: 765px) {
-    /* display: block;
-    height: 70px;
-    width: 150px;
-    border: none;
-    cursor: pointer;
-    color:transparent;
-    span{
-        height: 5px;
-        width: 50px;
-        background-color: black;
-    } */
-  }
+   
 `

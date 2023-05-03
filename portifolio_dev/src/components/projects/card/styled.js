@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ContainerCard = styled.div`
-height: 400px;
-width: 400px;
+height: 350px;
+width: 350px;
 cursor: pointer;
 transition: transform 0.3s ease-in-out;
 border: 1px solid #E6ECF8;
